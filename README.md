@@ -1,5 +1,7 @@
 Portfólio de Samantha Mataragia
+
 Descrição
+
 Este é o portfólio online de Samantha Mataragia, uma advogada com interesse em prestar diversos serviços jurídicos. O site inclui uma apresentação pessoal, uma seção de trabalhos realizados, um blog com artigos relevantes e uma lista detalhada dos serviços oferecidos.
 
 Funcionalidades:
