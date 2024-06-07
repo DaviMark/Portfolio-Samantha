@@ -773,3 +773,26 @@ p {
  align-items: center;
  padding-bottom: 10px ;
 }
+
+.insta, .linkedin{
+  color: #000;
+}
+
+.fale_comigo{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container_contato{
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-bottom: 10px;
+}
+
+.contato{
+  width: 498px;
+  padding-top: 10px;
+  padding-left: 10px;
+  background-color: gray;
+  border-radius: 10px
+}
