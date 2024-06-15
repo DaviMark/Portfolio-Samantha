@@ -1,3 +1,21 @@
+function scrollToWelcome() {
+    // Seleciona a div 'page1' pelo ID
+    var welcomeDiv = document.getElementById('page1');
+    
+    // Calcula a posição da div 'page1' na página
+    var position = welcomeDiv.getBoundingClientRect().top + window.scrollY;
+    
+    // Rola suavemente para a posição da div 'page1'
+    window.scrollTo({
+        top: position,
+        behavior: 'smooth' // Faz a rolagem suave
+    });
+}
+
+
+// fim
+
+
 $(function() {
 
   var siteSticky = function() {
@@ -87,16 +105,3 @@ $(function() {
 });
 
 
-function scrollToWelcome() {
-	// Seleciona a div 'welcome' pelo ID
-	var welcomeDiv = document.getElementById('page1');
-	
-	// Calcula a posição da div 'welcome' na página
-	var position = welcomeDiv.getBoundingClientRect().top;
-	
-	// Rola suavemente para a posição da div 'welcome'
-	window.scrollTo({
-	  top: position,
-	  behavior: 'smooth' // Faz a rolagem suave
-	});
-  }
