@@ -13,9 +13,6 @@ function scrollToWelcome() {
 }
 
 
-// fim
-
-
 $(function() {
 
   var siteSticky = function() {
